@@ -1,0 +1,151 @@
+# Excluye la carpeta env39
+env39/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instalación de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Directorios de Cython compilados
+cython_debug/
+
+# Archivos creados por editores / IDEs
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+*.tmp
+*.temp
+*.orig
+*.old
+*.retry
+
+# Editor de texto
+*~
+*.swp
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Bytecode generado por pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de registro
+*.log
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de control de versiones
+*.orig
+
+# Archivos de cobertura
+.coverage
+.tox
+.nox
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de máquina de estados
+*.dot
+
+# Archivos de seguridad
+*.key
+*.crt
+
+# Archivos de datos
+*.csv
+*.tsv
+*.dat
+*.sql
+
+# Archivos de configuración
+*.ini
+*.cfg
+*.config
+.env
+
+# Archivos de exportación
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.tflite
+
+# Archivos de caché
+*.cache
+*.pkl
+
+# Archivos de compilación
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.o
+*.lib
+*.obj
+
+# Logs y bases de datos
+*.log
+*.db
+*.sqlite
+
+# Archivos comprimidos
+*.gz
+*.zip
+*.tar
+*.rar
+*.bz2
+*.7z
+*.xz
+*.zst
+
+# Archivos de instalación
+*.deb
+*.rpm
+*.dmg
+*.pkg
+*.exe
+*.msi
+*.sh
+
+# Otros
+.idea/
+.vscode/

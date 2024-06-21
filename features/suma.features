@@ -1,0 +1,19 @@
+Feature: Suma de dos números
+  Como usuario
+  Quiero sumar dos números
+  Para obtener la suma correcta
+
+  Scenario: Sumar dos números positivos
+    Given que tengo los números 1 y 2
+    When los sumo
+    Then el resultado debería ser 3
+
+  Scenario: Sumar un número positivo y uno negativo
+    Given que tengo los números -1 y 1
+    When los sumo
+    Then el resultado debería ser 0
+
+  Scenario: Sumar dos números negativos
+    Given que tengo los números -1 y -1
+    When los sumo
+    Then el resultado debería ser -2
